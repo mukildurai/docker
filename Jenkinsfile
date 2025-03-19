@@ -5,7 +5,7 @@ pipeline {
         IMAGE_NAME = "sivagurunathan7/test_repository"
         TAG = "latest"
         CONTAINER_NAME = "my-container"
-        PORT = "3001"
+        PORT = "8080"
     }
 
     stages {
@@ -13,7 +13,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 echo "Cloning GitHub repository..."
-                git 'https://github.com/Sivagurunathan98/New_docker_push.git'
+                git 'https://github.com/mukildurai/docker.git'
             }
         }
 
