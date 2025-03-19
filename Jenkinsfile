@@ -5,7 +5,7 @@ pipeline {
         IMAGE_NAME = "sivagurunathan7/test_repository"
         TAG = "latest"
         CONTAINER_NAME = "my-container"
-        PORT = "8080"
+        PORT = "3001"
     }
 
     stages {
