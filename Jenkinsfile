@@ -5,7 +5,7 @@ pipeline {
         IMAGE_NAME = "mukilan18/sample" // Replace with your Docker Hub username and image name
         TAG = "latest"
         CONTAINER_NAME = "my-container"
-        PORT = "3001"
+        PORT = "3002"
     }
 
     stages {
